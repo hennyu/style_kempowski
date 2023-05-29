@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/646721549.svg)](https://zenodo.org/badge/latestdoi/646721549)
 
-Stylometric analyses of Walter Kempowski's novels
+## Stylometric analyses of Walter Kempowski's novels
 
 This repository contains scripts and data on stylometric analyses of the novels of the German writer Walter Kempowski (1929-2007).
 
