@@ -1,5 +1,7 @@
 # Style Kempowski
 
+[![DOI](https://zenodo.org/badge/646721549.svg)](https://zenodo.org/badge/latestdoi/646721549)
+
 Stylometric analyses of Walter Kempowski's novels
 
 This repository contains scripts and data on stylometric analyses of the novels of the German writer Walter Kempowski (1929-2007).
@@ -35,4 +37,4 @@ The contents of this repository are published under a GNU General Public License
 
 ## Citation
 
-Henny-Krahmer, Ulrike (2023): Style Kempowski – Stylometric analyses of Walter Kempowski's novels. Software and Data.
+Henny-Krahmer, Ulrike (2023): Style Kempowski – Stylometric analyses of Walter Kempowski's novels. Software and Data. Version 1.0. https://doi.org/10.5281/zenodo.7981921.
