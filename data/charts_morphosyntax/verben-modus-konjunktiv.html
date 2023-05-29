@@ -1,0 +1,41 @@
+<!DOCTYPE HTML><html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="/home/ulrike/Git/style_kempowski/scripts/plotly/plotly.js"></script></head>
+   <body>
+      <div id="myDiv" style="width: 809px; height: 500px;"></div><script>
+                        var trace1 = {
+                        y: [0.183717089283979403,0.046509621192510139,0.188599062133645955,0.187743371036528834,0.199688936975926427,0.042819499341238472,0.204788701313031005,0.220192970365265334,0.197530864197530864,0.137173396674584323,0.169015482334259627],
+                        type: 'box',
+                        name: "Kempowski"
+                        };
+                        
+                        
+                        var trace2 = {
+                        y: [0.142248148979133947,0.068557391692719964,0.165889303482587065,0.137315406656380868,0.209872159090909091,0.112586913888393653,0.096463306808134394,0.123655913978494624,0.06205184776613348,0.098298676748582231,0.09099371654642774,0.159244264507422402],
+                        type: 'box',
+                        name: "andere"
+                        };
+                        
+                        var data = [trace1, trace2];
+                        var layout = {
+                        margin: {l: 180, r: 180},
+                        title: "Sätze mit Verben im Konjunktiv bei Kempowski und anderen Autor:innen",
+                        font: {
+                        family: "Libertine, serif",
+                        color: "#000000",
+                        size: 14
+                        },
+                        showlegend: false,
+                        yaxis: {
+                        title: "Anteil an Sätzen mit Verben im Konjunktiv",
+                        tickfont: {size: 14},
+                        titlefont: {size: 14}
+                        },
+                        xaxis: {
+                        tickfont: {size: 14}
+                        }
+                        };
+                        
+                        Plotly.newPlot('myDiv', data, layout);
+                    </script></body>
+</html>

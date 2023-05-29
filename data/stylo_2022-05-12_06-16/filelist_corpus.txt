@@ -1,0 +1,24 @@
+wk_tadel_1971
+wk_gold_1972
+wk_kapitel_1975
+wk_zeit_1978
+wk_aussicht_1981
+wk_willkommen_1984
+wk_hundstage_1988
+wk_markbein_1991
+wk_heilewelt_1998
+wk_gruesse_2003
+wk_umsonst_2006
+
+# primerary_set:
+wk_tadel_1971
+wk_gold_1972
+wk_kapitel_1975
+wk_willkommen_1984
+
+ä secondary_set:
+wk_hundstage_1988
+wk_markbein_1991
+wk_heilewelt_1998
+wk_gruesse_2003
+wk_umsonst_2006

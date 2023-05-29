@@ -1,0 +1,41 @@
+<!DOCTYPE HTML><html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="/home/ulrike/Git/style_kempowski/scripts/plotly/plotly.js"></script></head>
+   <body>
+      <div id="myDiv" style="width: 709px; height: 500px;"></div><script>
+                        var trace1 = {
+                        y: [0.095210337122316137,0.103719043920959531,0.115328253223915592,0.062859262006304469,0.0625507167974033,0.095410628019323671,0.105373496634668432,0.108201240523776706,0.087484035759897829,0.062232779097387173,0.087336244541484716],
+                        type: 'box',
+                        name: "Kempowski"
+                        };
+                        
+                        
+                        var trace2 = {
+                        y: [0.071572806820731434,0.056721750781598928,0.139458955223880597,0.086621115274410403,0.185724431818181818,0.097789267249064004,0.081962864721485411,0.123422159887798036,0.075703254274682846,0.103024574669187146,0.054572957877589016,0.085213032581453634],
+                        type: 'box',
+                        name: "andere"
+                        };
+                        
+                        var data = [trace1, trace2];
+                        var layout = {
+                        margin: {l: 180, r: 180},
+                        title: "Indirekte Fragesätze bei Kempowski und anderen Autor:innen",
+                        font: {
+                        family: "Libertine, serif",
+                        color: "#000000",
+                        size: 14
+                        },
+                        showlegend: false,
+                        yaxis: {
+                        title: "Anteil an Fragesätzen",
+                        tickfont: {size: 14},
+                        titlefont: {size: 14}
+                        },
+                        xaxis: {
+                        tickfont: {size: 14}
+                        }
+                        };
+                        
+                        Plotly.newPlot('myDiv', data, layout);
+                    </script></body>
+</html>

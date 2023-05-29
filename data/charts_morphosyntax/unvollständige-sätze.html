@@ -1,0 +1,41 @@
+<!DOCTYPE HTML><html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="/home/ulrike/Git/style_kempowski/scripts/plotly/plotly.js"></script></head>
+   <body>
+      <div id="myDiv" style="width: 709px; height: 500px;"></div><script>
+                        var trace1 = {
+                        y: [0.171670067035849607,0.191819829148330313,0.188452520515826495,0.315594288893009457,0.342236948877468217,0.199824330259112868,0.161977270219574092,0.136802205375603032,0.171030225627926777,0.190142517814726841,0.262107979356887654],
+                        type: 'box',
+                        name: "Kempowski"
+                        };
+                        
+                        
+                        var trace2 = {
+                        y: [0.164236033206192506,0.214381420276909335,0.166200248756218905,0.164646242010138858,0.101207386363636364,0.19201283651274737,0.128824049513704686,0.138148667601683029,0.291367898510755654,0.180245746691871456,0.221084477542471492,0.164064006169269327],
+                        type: 'box',
+                        name: "andere"
+                        };
+                        
+                        var data = [trace1, trace2];
+                        var layout = {
+                        margin: {l: 180, r: 180},
+                        title: "Unvollständige Sätze bei Kempowski und anderen Autor:innen",
+                        font: {
+                        family: "Libertine, serif",
+                        color: "#000000",
+                        size: 14
+                        },
+                        showlegend: false,
+                        yaxis: {
+                        title: "Anteil unvollständiger Sätze",
+                        tickfont: {size: 14},
+                        titlefont: {size: 14}
+                        },
+                        xaxis: {
+                        tickfont: {size: 14}
+                        }
+                        };
+                        
+                        Plotly.newPlot('myDiv', data, layout);
+                    </script></body>
+</html>

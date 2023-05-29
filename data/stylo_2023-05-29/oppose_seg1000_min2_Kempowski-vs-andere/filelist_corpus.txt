@@ -1,0 +1,25 @@
+# primary_set:
+wk_tadel_1971
+wk_gold_1972
+wk_kapitel_1975
+wk_zeit_1978
+wk_aussicht_1981
+wk_willkommen_1984
+wk_hundstage_1988
+wk_markbein_1991
+wk_heilewelt_1998
+wk_gruesse_2003
+wk_umsonst_2006
+# secondary_set:
+gg_blechtrommel_1959
+gg_schnecke_1972
+gg_raettin_1986
+hb_clown_1963
+hb_gruppenbild_1971
+hb_frauen_1975
+cb_tessin_1960
+cb_jauche_1975
+cb_quints_1985
+cw_nachdenken_1968
+cw_kindheitsmuster_1976
+cw_medea_1996

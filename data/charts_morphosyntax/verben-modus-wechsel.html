@@ -1,0 +1,41 @@
+<!DOCTYPE HTML><html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="/home/ulrike/Git/style_kempowski/scripts/plotly/plotly.js"></script></head>
+   <body>
+      <div id="myDiv" style="width: 709px; height: 500px;"></div><script>
+                        var trace1 = {
+                        y: [0.098999319926163412,0.030546207610665286,0.098622508792497069,0.089467828666790284,0.076345685691100893,0.029205094422485727,0.122807017543859649,0.107167470709855272,0.118348233290762026,0.109738717339667458,0.09944422389837237],
+                        type: 'box',
+                        name: "Kempowski"
+                        };
+                        
+                        
+                        var trace2 = {
+                        y: [0.087951536908234238,0.061634658329611434,0.180348258706467662,0.120784659466607891,0.189630681818181818,0.105277233018363345,0.0627763041556145,0.118045815801776531,0.047573083287369002,0.08610586011342155,0.066674424016755876,0.184114131482552535],
+                        type: 'box',
+                        name: "anderee"
+                        };
+                        
+                        var data = [trace1, trace2];
+                        var layout = {
+                        margin: {l: 180, r: 180},
+                        title: "Sätze mit Moduswechsel bei Kempowski und anderen Autor:innen",
+                        font: {
+                        family: "Libertine, serif",
+                        color: "#000000",
+                        size: 14
+                        },
+                        showlegend: false,
+                        yaxis: {
+                        title: "Anteil an Sätzen mit Moduswechsel",
+                        tickfont: {size: 14},
+                        titlefont: {size: 14}
+                        },
+                        xaxis: {
+                        tickfont: {size: 14}
+                        }
+                        };
+                        
+                        Plotly.newPlot('myDiv', data, layout);
+                    </script></body>
+</html>
